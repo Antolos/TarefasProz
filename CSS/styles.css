@@ -1,0 +1,11 @@
+p, span, a {
+    font-family: sans-serif;
+    color: red;
+    font-size: 50px;
+}
+
+section div p {
+    font-family: sans-serif;
+    color: blue;
+    font-size: 50px;
+}
