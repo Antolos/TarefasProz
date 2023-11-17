@@ -1,0 +1,39 @@
+table{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width:200px;
+    max-height:150px;
+    width: 200px;
+    height: 150px;
+}
+
+
+.center { 
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    list-style: none;
+    background-color: aqua;
+}
+
+span {
+    
+    color: midnightblue;
+
+}
+
+body {
+    background-color: aliceblue;
+}
+
+td {
+    margin: 10rem
+}
