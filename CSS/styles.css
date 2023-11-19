@@ -1,4 +1,57 @@
-p, span, a {
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+header img{
+    width: 10%;
+}
+
+nav{
+    
+    
+}
+
+ul{
+    display: flex;  
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    margin-left: 10px;
+    list-style-type: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    text-decoration-color: green;
+}
+
+body {
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* p, span, a {
     font-family: sans-serif;
     color: red;
     font-size: 50px;
@@ -33,4 +86,4 @@ ul {
 body {
     text-decoration: none;
 
-}
+} */
