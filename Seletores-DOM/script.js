@@ -43,3 +43,26 @@ console.log(elementoH1.innerText);
 console.log(elementoMain);
 console.log(elementoMain.innerText);
 console.log(elementoMain.innerHTML);
+
+
+let elementoJavaScript = document.createElement("li");
+elementoJavaScript.innerText = "JavaScript";
+elementoJavaScript.id = "ling-js";
+console.log(elementoJavaScript);
+
+let listalinguagens = document.querySelector(".lista-linguagens");
+listalinguagens.appendChild(elementoJavaScript);
+
+const postagemJavaScript = document.createElement("div");
+postagemJavaScript.innerHTML = `<h2 class="post-titulo">
+JavaScript
+</h2>
+<p class="post-texto">
+JavaScript é uma linguagem de programação
+</p>`
+
+const postagens = document.querySelector(".postagens");
+
+postagens.appendChild(postagemJavaScript);
+
+
