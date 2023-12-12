@@ -8,18 +8,11 @@ header{
     background-color: aliceblue;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 10px;
-    
+    padding: 10px;    
 }
 
 header img{
     width: 10%;
-}
-
-nav{
-    
-    
 }
 
 ul{
@@ -31,18 +24,42 @@ ul{
 nav ul li {
     margin-left: 10px;
     list-style-type: none;
-    
 }
+
 nav ul li a{
     text-decoration: none;
     text-decoration-color: green;
 }
 
 body {
-    
+    background-color: blueviolet;   
 }
 
+main {
+    background-color: aqua;
+    color: white;
+    padding-top: 16px;
+    padding-left: 12px;
+    width: 800 px;
+    margin: 0 auto;
+    padding: 16px;
+}
 
+section {
+    display: flex;
+}
+
+section div {
+    background-color: orange;
+    padding: 12px;
+    border-radius: 16px;
+    height: 200px;
+    width: 300px;
+}
+
+section div:first-of-type{
+    margin-right: 16px;
+}
 
 
 
