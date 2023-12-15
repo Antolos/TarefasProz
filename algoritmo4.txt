@@ -1,0 +1,10 @@
+nomeEquipe: caractere
+numeroMembros: inteiro
+contador: inteiro = 1
+
+enquanto contador <= numeroMembros 
+    escrva: nomeEquipe + contador 
+    contador: contador + 1
+fim enquanto
+
+fim do programa
