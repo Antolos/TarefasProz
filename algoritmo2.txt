@@ -1,0 +1,19 @@
+nome:caractere
+leia:nome
+escreva: nome
+
+endereco:caractere
+leia:endereco
+escreva: endereco
+
+cidade:caractere
+leia:cidade
+escreva: cidade
+
+cpf:inteiro
+leia:cpf
+escreva: cpf
+
+rg:inteiro
+leia:rg
+escreva: rg
