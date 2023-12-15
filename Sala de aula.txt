@@ -1,0 +1,1 @@
+É possível observar que a cada linha e a cada coluna, existe uma alternancia de 4 alunos da materia x e 2 alunos de matéria y para 4 da matéria y e 2 da matéria x. Sendo assim, o professor poderia reorganizar a sala identeficando qual elemento dentra da coordenada de linha e coluna está fora da regra e reorganizar a sala.
