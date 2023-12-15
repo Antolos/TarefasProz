@@ -1,0 +1,11 @@
+qntPessoas: inteiro
+escreva: digite quantidade de pessoas
+leia: qntPessoas
+tipoPessoa: inteiro
+escreva: digite 1 para pessoa fumante e com animais de estimação
+leia: tipoPessoa
+
+se tipoPessoa == 1, escreva: alocar na área externa
+senão se qntPessoas > 4, escreva: alocar no 1o andar
+senão, escreva: alocar no térreo.
+
