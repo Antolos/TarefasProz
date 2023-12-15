@@ -1,0 +1,5 @@
+nome: character
+cpf : inteiro
+Rg: inteiro
+Altura: real
+Enderco: character 
