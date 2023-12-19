@@ -1,0 +1,39 @@
+- Mostre as informações apenas dos alunos aprovados. A aprovação é acima de 7,0;
+ó nota > 7,0 (aluno)
+
+- Exiba as informações dos alunos do primeiro ano com nota maior ou igual a 8,0;
+ó (serie = 1° ano)(no >= 8,0)(aluno)
+
+- Exiba apenas os nomes e as notas dos alunos;
+pi (p.nome, nota) (aluno)
+
+- Crie uma tabela PROFESSOR que apresente apenas o primeiro e o último nome do professor;
+PROFESSOR
+PNome | UNome
+joao  | fernandes
+maria | Holanda
+- Crie uma tabela ALUNO com o primeiro e o último nome de cada;
+ALUNO
+PNome | UNome
+gaby  | cortez
+luan  | faria
+
+- Mostre o resultado da união entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR;
+PROFESSOR U ALUNO
+PNome | UNome
+joao  | fernandes
+maria | Holanda
+gaby  | cortez
+luan  | faria
+
+- Exiba o resultado da intersecção entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR;
+PROFESSOR intersecção ALUNO
+PNome | UNome
+      |
+
+- Exiba o resultado da diferença entre a tabela ALUNO(PNome, UNome) e a tabela PROFESSOR. 
+ALUNO - PROFESSOR
+PNome | UNome
+gaby  | cortez
+luan  | faria
+
