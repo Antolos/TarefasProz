@@ -1,0 +1,2 @@
+O banco de dados MySQL é a solução de código aberto mais popular que existe e é o banco de dados relacional Open Source mais utilizado do mundo, O MySQL está em todos os lugares e é geralmente o banco de dados que se aprende primeiro.
+O Oracle Database surgiu no final dos anos 70 e atualmente, de acordo com o site db-engines, é o SGBD mais utilizado do mundo. É também muito seguro e inclusive faz testes provocando hackers a invadirem seus bancos.
