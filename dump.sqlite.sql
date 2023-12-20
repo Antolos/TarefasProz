@@ -24,3 +24,14 @@ INSERT into Aluno (id, nome, disciplina_id) VALUES (1 , 'Antonio', 2),( 2, 'Joã
 SELECT nome, nome_disciplina
 FROM Aluno
 INNER JOIN Disciplina ON aluno.disciplina_id = Disciplina.disciplina_id;
+
+
+-- TRIGGER
+CREATE TRIGGER auto_disciplina
+AFTER INSERT ON Aluno
+FOR EACH ROW
+BEGIN
+  UPDATE Aluno
+  SET disciplina_id =  2
+  WHERE disciplina_id ISNULL;
+END;
